@@ -15,7 +15,7 @@ const microserviceConfig = {
     service_type:"segitiga",
     service_name:"Segitiga Pertama",
     service_host:"http://localhost",
-    service_port:4001
+    service_port:2000
 };
 
 const segitigaMicroservice = new Microservice(microserviceConfig, customRouteHandler);

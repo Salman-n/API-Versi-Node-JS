@@ -53,8 +53,8 @@ function fetchEureka() {
 
 //run a terminal like command. have "list" command and show the activeServer array
 //i mean when the server is run on cli
-app.listen(2000, function(){
-    console.log('gate listening on port 2000');
+app.listen(6000, function(){
+    console.log('gate listening on port 6000');
     fetchEureka();
     //accept terminal like command here
     process.stdin.on('data', function(data){

@@ -15,7 +15,7 @@ const microserviceConfig = {
     service_type:"layang-layang",
     service_name:"Layang Layang Pertama",
     service_host:"http://localhost",
-    service_port:4003
+    service_port:4000
 };
 
 const segitigaMicroservice = new Microservice(microserviceConfig, customRouteHandler);

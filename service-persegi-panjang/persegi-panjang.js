@@ -15,7 +15,7 @@ const microserviceConfig = {
     service_type:"persegi-panjang",
     service_name:"Persegi Panjang Pertama",
     service_host:"http://localhost",
-    service_port:4002
+    service_port:3000
 };
 
 const persegiMicroservice = new Microservice(microserviceConfig, customRouteHandler);

@@ -22,7 +22,7 @@ app.post('/hadir', function(req, res){
     } else {
         //create a new server object on activeServer array 
         activeServer.push({service_id,service_type,service_name,service_url,last_active});
-        console.log('service ' + service_id + ' ' + service_name + ' is connected succesfully (baca pakai logat spiker bluetooth 😂)');
+        console.log('service ' + service_id + ' ' + service_name + ' is connected succesfully 😂');
           
     }
     res.json({service_id,service_type,service_name,service_url,last_active})
@@ -45,8 +45,8 @@ setInterval(function(){
 
 //run a terminal like command. have "list" command and show the activeServer array
 //i mean when the server is run on cli
-app.listen(3000, function(){
-    console.log('eureka listening on port 3000');
+app.listen(1000, function(){
+    console.log('eureka listening on port 1000');
     //accept terminal like command here
     process.stdin.on('data', function(data){
         if(data.toString().trim() === 'list'){
